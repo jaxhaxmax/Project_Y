@@ -1,0 +1,13 @@
+duckduckgo-search
+pillow
+tqdm
+requests
+matplotlib
+torch
+torchvision
+transformers
+numpy
+scikit-learn
+umap-learn
+pandas
+streamlit
