@@ -1,0 +1,26 @@
+PROJECT_Y/
+│
+├── data/
+│   ├── brand_images/
+│   │   ├── nike/
+│   │   ├── adidas/
+│   │   ├── puma/
+│   │   └── ...
+│
+├── src/
+│   ├── download_images.py          # data collection
+│   ├── preprocess_images.py        # resize, clean, dedup
+│   ├── generate_embeddings.py      # CLIP embeddings
+│   ├── analysis_engine.py          # PCA, similarity, clustering
+│   ├── insight_generator.py        # LLM-driven insights
+│   ├── recommend_engine.py         # LLM recommendation logic
+│   ├── dashboard_app.py            # Streamlit / web UI
+│   └── utils.py                    # shared helper functions
+│
+├── notebooks/
+│   ├── testing_clip.ipynb          # experiments
+│   └── exploratory_data.ipynb
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
